@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [amazon application test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="amazon pages(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyApayPageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- amazon pages(failed) -->
+</suite> <!-- Failed suite [amazon application test] -->
